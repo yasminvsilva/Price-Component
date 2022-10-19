@@ -1,0 +1,25 @@
+.superior {
+    padding-inline: 1.5rem;
+    padding-block: 2rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #FFF;
+}
+
+.superior p {
+    font-weight: 700;
+    line-height: 1.25rem;
+    color: var(--bright-yellow);
+    margin-bottom: 1rem;
+}
+
+.superior p {
+    line-height: 1.625rem;
+    color: var(--grayish-blue);
+    font-size: 0.875rem;
+}
+
+.esquerda {
+    background: var(--cyan);
+    padding: 1.5rem;
+}
