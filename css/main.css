@@ -6,14 +6,14 @@
     background: #FFF;
 }
 
-.superior p {
+.superior p:first-of-type {
     font-weight: 700;
     line-height: 1.25rem;
     color: var(--bright-yellow);
     margin-bottom: 1rem;
 }
 
-.superior p {
+.superior p:last-of-type {
     line-height: 1.625rem;
     color: var(--grayish-blue);
     font-size: 0.875rem;
@@ -22,4 +22,55 @@
 .esquerda {
     background: var(--cyan);
     padding: 1.5rem;
+}
+
+.esquerda div {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+.esquerda div p:first-of-type {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+}
+
+.esquerda div p:last-of-type {
+    color: #FFF;
+    opacity: 0.5;
+}
+
+.esquerda .unico {
+    color: #FFF;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+}
+
+.esquerda button {
+    padding-block: 1rem;
+    width: 100%;
+    color: #FFF;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    border: none;
+    background: var(--bright-yellow);
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011)
+}
+
+.direita {
+    background: var(--light-cyan);
+    padding: 1.5rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.direita p {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    color: #FFF;
+    opacity: 0.75;
 }
