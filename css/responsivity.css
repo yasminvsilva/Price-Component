@@ -1,0 +1,50 @@
+@media (min-width: 650px) {
+    .inferior {
+        display: flex;
+    }
+
+    .esquerda, 
+    .direita {
+        width: 100%;
+        padding: 2.5rem;
+    }
+
+    main {
+        max-width: 640px;
+        padding: 0;
+    }
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .superior {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        padding: 2.5rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .superior p:first-of-type {
+        font-size: 1.125rem;
+    }
+
+    .superior p:last-of-type {
+        font-size: 1rem;
+    }
+
+    .esquerda {
+        border-bottom-left-radius: 0.5rem;
+    }
+
+    .direita {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0.5rem;
+    }
+}
